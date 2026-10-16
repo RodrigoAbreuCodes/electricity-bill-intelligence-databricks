@@ -5,7 +5,7 @@ checks every answer with business rules and measures its own accuracy against an
 
 Result on 120 bills x 10 fields: 1,199 of 1,200 fields correct (99.9%), 0 bills quarantined, 5 bills sent to
 human review (4 low-confidence false alarms, 1 real CUPS error), 1 of 1 AI errors caught by the review rules.
-The summary document explains how to read these numbers (synthetic data, tuned on the same bills, tiny error sample).
+Read these numbers with care: the bills are synthetic, the rules were tuned on the same 120 bills, and one error is a very small sample.
 
 ## Files
 
@@ -39,5 +39,5 @@ table, an AI scorecard and a template dimension.
 
 ## Data
 
-Bills and answer key: IDSEM dataset of synthetic Spanish electricity bills (CC BY 4.0). No personal data is used.
+Bills and answer key: IDSEM dataset of synthetic Spanish electricity bills (CC BY 4.0), [https://springernature.figshare.com/collections/IDSEM_An_Invoices_Database_of_the_Spanish_Electricity_Market/6045245/1]. Not included in this repo. No personal data is used.
 Built on Databricks Free Edition, so it is a proof of concept and not a production setup.
